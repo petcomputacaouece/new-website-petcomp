@@ -5,20 +5,21 @@
 
 /* Estilos para a div que contém a seção "Sobre" */
 .pet-computacao-sobre-section {
-    background-color: #202020;
-    padding-top: 40px;
-    padding-bottom: 10px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding: 28px 56px;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center; /* Centraliza verticalmente */
+    text-align: center;
 }
 
 /* Estilos para o parágrafo que contém o título "Sobre" */
 .pet-computacao-sobre-title {
     font-size: 45px;
     display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 /* Estilos para o span que contém a letra "S" */
@@ -34,7 +35,12 @@
 /* Estilos para a div que contém o conteúdo principal */
 .pet-computacao-content {
     display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinha o conteúdo à esquerda */
     margin-top: 20px;
+    gap: 40px; /* Ajusta o espaçamento entre a imagem e o texto */
+    width: 100%;
+    max-width: 1200px; /* Limita a largura máxima do conteúdo */
 }
 
 /* Estilos para as divs que contêm a foto e o texto */
@@ -49,17 +55,18 @@
 .pet-computacao-photo img {
     max-width: 100%;
     height: auto;
+
 }
 
 /* Estilos para a classe específica da imagem dos petianos */
 .pet-computacao-img-petianos {
     width: 450px;
     border-radius: 50px;
+    object-fit: cover;
 }
 
 /* Estilos para a div que contém a seção "Petianos" */
 .pet-computacao-petianos-section {
-    background-color: #202020;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 80px;
