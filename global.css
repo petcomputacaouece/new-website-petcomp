@@ -1,0 +1,41 @@
+
+/* GENERAL STYLE */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+h2.title{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.title span{
+    color: #00aaf7;
+}
+
+b{
+    font-weight: 600;
+    font-size: 18pt;
+}
+
+body{
+    background-image: url("./images/Background.jpg");
+    height: 100vh;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* HEADER STYLE */
+
+
+
+/* INICIO STYLE */
+

@@ -1,0 +1,79 @@
+header {
+    width: 100%;
+    background-color: #22231cb9;
+    padding: 1rem;
+    box-shadow: 0px 1px 8px #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .menu-desktop button {
+    display: inline-block;
+    padding: 0 1rem;
+    color: #fff;
+    text-decoration-line: none;
+    background: none;
+    border: none;
+    display: inline-block;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+header .menu-desktop button:hover {
+    text-shadow: 0px 0px 8px #00aaf7;
+    color: #00aaf7;
+    transform: scale(1.05);
+}
+
+header .logo a{
+    color: #fff;
+    text-decoration-line: none;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header .logo a h1{
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 16pt;
+    padding-left: 10px;
+}
+
+header .logo a img{
+    max-width: 50px;
+}
+
+.logo b{
+    transition: 0.5s;
+}
+
+.logo :hover b{
+    color: #00aaf7;
+}
+
+header .btn-contacts button{
+    color: #22231c;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00aaf7;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+header .btn-contacts button:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px #00aaf7;
+}

@@ -1,0 +1,87 @@
+/* Define que a propriedade box-sizing de todos os elementos será border-box, incluindo margens e preenchimento no cálculo da largura e altura */
+* {
+    box-sizing: border-box;
+}
+
+/* Estilos para a div que contém a seção "Sobre" */
+.pet-computacao-sobre-section {
+    background-color: #202020;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para o parágrafo que contém o título "Sobre" */
+.pet-computacao-sobre-title {
+    font-size: 45px;
+    display: flex;
+}
+
+/* Estilos para o span que contém a letra "S" */
+.pet-computacao-sobre-title-s {
+    color: #00A8ED;
+}
+
+/* Estilos para o span que contém a palavra "OBRE" */
+.pet-computacao-sobre-title-obre {
+    color: #FFFFFF;
+}
+
+/* Estilos para a div que contém o conteúdo principal */
+.pet-computacao-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Estilos para as divs que contêm a foto e o texto */
+.pet-computacao-photo,
+.pet-computacao-text {
+    flex: 1;
+    padding: 10px;
+    color: white;
+}
+
+/* Estilos para a imagem dentro da div .pet-computacao-photo */
+.pet-computacao-photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para a classe específica da imagem dos petianos */
+.pet-computacao-img-petianos {
+    width: 450px;
+    border-radius: 50px;
+}
+
+/* Estilos para a div que contém a seção "Petianos" */
+.pet-computacao-petianos-section {
+    background-color: #202020;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para o parágrafo que contém o título "Petianos" */
+.pet-computacao-petianos-title {
+    font-size: 45px;
+    display: flex;
+}
+
+/* Estilos para o span que contém a palavra "PET" */
+.pet-computacao-petianos-title-pet {
+    color: #00A8ED;
+}
+
+/* Estilos para o span que contém a palavra "IANOS" */
+.pet-computacao-petianos-title-ianos {
+    color: #FFFFFF;
+}
+

@@ -1,0 +1,246 @@
+.projects {
+    background-color: #ffffffe8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+
+}
+
+.projects .title {
+    margin-bottom: 20px;
+    color: #22231c;
+}
+
+.projects .container {
+    display: flex;
+    margin: 0;
+    gap: 50px;
+    height: 100%;
+    
+}
+
+.projects .info-box {
+    padding: 10px;
+    background-color: #d2d2d2;
+    color: #000000;
+    height: 100%;
+    width: 350px;
+}
+
+.projects .info-box h3 {
+    font-size: 20px;
+}
+
+.projects .info-box p {
+    max-width: 100%;
+    text-align: center;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: block-axis;
+    padding-bottom: 0px 10px 10px 1px;
+}
+
+.projects .info-box:hover {
+    background-color: #fff;
+}
+
+.projectButton {
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    align-self: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contactButton:hover {
+    background-color: #555;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.6); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; 
+    border: 10px solid #888;
+    width: 50%; 
+    height: 100%;
+    border-radius: 10px;
+    overflow: scroll;
+}
+
+.modal-content p {
+    font-size: 16px;
+    margin: 25px;
+    text-align: justify;
+}
+
+.modal-header {
+    background-color: #0B845C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.modal-header img {
+    width: 190px;
+    height: 30px;
+}
+
+#close {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#close:hover, #close:focus {
+    color: black;
+    text-decoration: none;
+}
+.group-buttons {
+    margin: 20px;
+    justify-content: space-between;
+}
+.group-buttons .react{
+    background-color: #20232a;
+    color: #fff;
+    padding: 3px 5px 0px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 13px;
+    max-width: fit-content;
+    box-sizing: unset;
+    margin: 0px 8px 8px 0px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.group-buttons .javascript{
+    background-color: #fcdc00;;
+    color: #fff;
+    padding: 3px 5px 0px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 13px;
+    max-width: fit-content;
+    box-sizing: unset;
+    margin: 0px 8px 8px 0px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.group-buttons .nodejs{
+    background-color: #417e38;;
+    color: #fff;
+    padding: 3px 5px 0px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 13px;
+    max-width: fit-content;
+    box-sizing: unset;
+    margin: 0px 8px 8px 0px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.group-buttons .mysql{
+    background-color: #3E6E93;
+    color: #fff;
+    padding: 3px 5px 0px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 13px;
+    max-width: fit-content;
+    box-sizing: unset;
+    margin: 0px 8px 8px 0px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.modal-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 70%;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.arrow {
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+    user-select: none;
+    margin: 0 10px;
+}
+
+.horizontal-slider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.horizontal-slider img {
+    width: auto;
+    height: 400px; 
+    object-fit: contain;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    background-color: #000000;
+}
+
+
+@media (max-width: 1080px) {
+    .projects .info-box {
+        height: auto;
+        width: 250px;
+    }
+    .projects .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .projects .container {
+        width: 100%;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .projects .arrow {
+        margin-top: 10px;
+    }
+
+    .projects .info-box {
+        width: 100%;
+    }
+
+    .horizontal-slider img {
+        height: 300px; 
+    }
+}

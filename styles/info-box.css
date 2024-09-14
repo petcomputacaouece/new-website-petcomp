@@ -1,0 +1,24 @@
+.info-box{
+    background-color: #22231c81;
+    border-radius: 25px;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    transition: 0.5s;
+}
+
+.info-box:hover{
+    background-color: #22231c;
+    transform:scale(1.05);
+    box-shadow: 0 0 8px #00aaf7;
+}
+
+.info-box i{
+    font-size: 90px;
+    color: #00aaf7;
+}
+
+.info-box h3{
+    margin: 15px 0;
+    font-size: 28px;
+}
