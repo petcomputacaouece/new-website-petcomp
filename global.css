@@ -14,6 +14,16 @@ h2.title{
     text-align: center;
 }
 
+h2.titleblack{
+    color: #22231c;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titleblack span{
+    color: #00aaf7;
+}
+
 h2.title span{
     color: #00aaf7;
 }

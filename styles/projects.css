@@ -1,5 +1,4 @@
 .projects {
-    background-color: #ffffffe8;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -9,7 +8,6 @@
 
 .projects .title {
     margin-bottom: 20px;
-    color: #22231c;
 }
 
 .projects .container {

@@ -1,6 +1,11 @@
 /* Define que a propriedade box-sizing de todos os elementos será border-box, incluindo margens e preenchimento no cálculo da largura e altura */
 * {
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.sobre {
+    background-color: #ffffffe8;
 }
 
 /* Estilos para a div que contém a seção "Sobre" */
@@ -24,12 +29,12 @@
 
 /* Estilos para o span que contém a letra "S" */
 .pet-computacao-sobre-title-s {
-    color: #00A8ED;
+    color: #22231c;
 }
 
 /* Estilos para o span que contém a palavra "OBRE" */
 .pet-computacao-sobre-title-obre {
-    color: #FFFFFF;
+    color: #00A8ED;
 }
 
 /* Estilos para a div que contém o conteúdo principal */
@@ -48,7 +53,7 @@
 .pet-computacao-text {
     flex: 1;
     padding: 10px;
-    color: white;
+    color: #000000;
 }
 
 /* Estilos para a imagem dentro da div .pet-computacao-photo */
@@ -84,11 +89,11 @@
 
 /* Estilos para o span que contém a palavra "PET" */
 .pet-computacao-petianos-title-pet {
-    color: #00A8ED;
+    color: #000000;
 }
 
 /* Estilos para o span que contém a palavra "IANOS" */
 .pet-computacao-petianos-title-ianos {
-    color: #FFFFFF;
+    color: #00A8ED;
 }
 

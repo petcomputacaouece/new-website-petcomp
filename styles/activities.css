@@ -1,5 +1,4 @@
 .activities {
-    background-color: #ffffffe8;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -8,7 +7,6 @@
 
 .activities .title {
     margin-bottom: 40px;
-    color: #22231c;
 }
 
 .activities .container {
