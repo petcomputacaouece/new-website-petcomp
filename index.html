@@ -2,17 +2,11 @@
 <html lang="pt-br">
 
 <head>
-    <!-- Definindo o tipo de documento e a linguagem padrão como português do Brasil -->
     <meta charset="UTF-8">
-    <!-- Definindo a codificação de caracteres como UTF-8 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Configurando a viewport para permitir a responsividade -->
     <title>PET Computação - UECE</title>
-    <!-- Título da página que aparece na aba do navegador -->
 
-    <!-- Link para o arquivo CSS global -->
     <link rel="stylesheet" href="global.css">
-    <!-- Link para o CSS específico de cada seção da página -->
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/info-box.css">
@@ -23,35 +17,28 @@
     <link rel="stylesheet" href="styles/sobre.css">
     <link rel="stylesheet" href="styles/petianos.css">
 
-    <!-- Definindo o ícone que aparecerá na aba do navegador -->
     <link rel="shortcut icon" href="images/Logo-PET-Comp.png" type="image/x-icon">
 
-    <!-- Conexão prévia para otimizar a performance ao carregar fontes do Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <!-- Importação de fontes do Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200;400&display=swap"
         rel="stylesheet">
 
-    <!-- Link para os ícones do Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
     <header>
-        <!-- Seção do cabeçalho da página -->
         <div class="container">
             <div class="logo">
                 <a href="#">
-                    <!-- Logo e nome do site -->
                     <img src="./images/Logo-PET-Comp.png" alt="Logo do PET">
                     <h1><b>{</b>COMPUTAÇÃO<b>}</b></h1>
                 </a>
             </div>
             <nav class="menu-desktop" id="menu-desktop">
-                <!-- Menu de navegação para a versão desktop -->
                 <button data-target="#home">Início</button>
                 <button data-target="#activities">Atividades</button>
                 <button data-target="#about">Sobre</button>
@@ -60,7 +47,6 @@
             </nav>
 
             <div class="btn-contacts">
-                <!-- Botão para acessar a seção de seleção -->
                 <a href="#">
                     <button>Seleção</button>
                 </a>
@@ -69,15 +55,12 @@
     </header>
 
     <main>
-        <!-- Conteúdo principal da página -->
         <section class="home" id="home">
             <div class="container">
                 <div class="home-image">
-                    <!-- Imagem principal da seção home -->
                     <img src="./images/Logo-PET.png" alt="Logo do PET">
                 </div>
                 <div class="home-text">
-                    <!-- Texto principal sobre o PET -->
                     <h1><span>P</span>rograma de <span>E</span>ducação <span>T</span>utorial</h1>
                     <p>O Programa de Educação Tutorial é um programa do Governo Federal brasileiro de estímulo a
                         atividades de pesquisa, ensino e extensão universitárias, no nível de graduação. O programa é
@@ -85,17 +68,14 @@
                 </div>
             </div>
             <div class="pillars">
-                <!-- Seção que destaca os três pilares do PET -->
                 <div class="container">
                     <div class="info-box">
-                        <!-- Box de informação sobre Ensino -->
                         <i class="bi bi-book"></i>
                         <h3>Ensino</h3>
                         <p>Fundamenta-se na transmissão de conhecimento teórico e prático, promovendo o desenvolvimento
                             acadêmico dos estudantes através de aulas, seminários e atividades práticas.</p>
                     </div>
                     <div class="info-box">
-                        <!-- Box de informação sobre Pesquisa -->
                         <i class="bi bi-search"></i>
                         <h3>Pesquisa</h3>
                         <p>Envolve a investigação sistemática e a produção de conhecimento novo, impulsionando a
@@ -103,7 +83,6 @@
                             crítica.</p>
                     </div>
                     <div class="info-box">
-                        <!-- Box de informação sobre Extensão -->
                         <i class="bi bi-globe-americas"></i>
                         <h3>Extensão</h3>
                         <p>Vincula a universidade à comunidade, aplicando o conhecimento gerado na academia para
@@ -115,25 +94,16 @@
         </section>
 
         <section class="sobre" id="sobre">
-                    <!-- Div principal que contém a seção "Sobre" -->
         <div class="pet-computacao-sobre-section">
-            <!-- Parágrafo estilizado para o título "Sobre" -->
             <p class="pet-computacao-sobre-title">
-                <!-- Span para estilizar a letra "S" separadamente -->
                 <span class="pet-computacao-sobre-title-s">SO</span>
-                <!-- Span para estilizar o restante da palavra "OBRE" -->
                 <span class="pet-computacao-sobre-title-obre">BRE</span>
             </p>
-            <!-- Div que contém o conteúdo principal -->
             <div class="pet-computacao-content">
-                <!-- Div para a foto dos petianos -->
                 <div class="pet-computacao-photo">
-                    <!-- Imagem dos petianos com descrição alternativa e classe CSS para estilização -->
                     <img src="images/petianos.jpg" alt="Descrição da Foto" class="pet-computacao-img-petianos">
                 </div>
-                <!-- Div para o texto explicativo -->
                 <div class="pet-computacao-text">
-                    <!-- Parágrafos explicativos sobre o PET Computação e suas áreas de atuação -->
                     <p>O Programa de Educação Tutorial (PET) Computação da Universidade Estadual do Ceará (UECE) é uma
                         iniciativa que abrange as áreas de pesquisa, extensão e ensino. Na extensão, o PET Computação
                         desenvolve projetos como o chatbot PETer, uma ferramenta desenvolvida para auxiliar os
@@ -162,13 +132,9 @@
                 </div>
             </div>
         </div>
-        <!-- Div principal que contém a seção "Petianos" -->
         <div class="pet-computacao-petianos-section">
-            <!-- Parágrafo estilizado para o título "Petianos" -->
             <p class="pet-computacao-petianos-title">
-                <!-- Span para estilizar a palavra "PET" -->
                 <span class="pet-computacao-petianos-title-pet">PET</span>
-                <!-- Span para estilizar a palavra "IANOS" -->
                 <span class="pet-computacao-petianos-title-ianos">IANOS</span>
             </p>
 
@@ -232,7 +198,6 @@
             </section>
 
             <section class="events" id="events">
-                <!-- Seção que destaca os eventos do PET -->
                 <h2 class="title">EVEN<span>TOS</span></h2>
                 <div class="container">
                     <div class="carousel">
@@ -282,13 +247,11 @@
                         </div>
                     </div>
                     <div class="dot-container">
-                        <!-- Controles do carrossel (bolinhas) -->
                         <span class="dot" onclick="currentSlide(0)"></span>
                         <span class="dot" onclick="currentSlide(1)"></span>
                         <span class="dot" onclick="currentSlide(2)"></span>
                     </div>
                 </div>
-                <!-- Script para controlar o carrossel de eventos -->
                 <script src="scripts/carousel-events-section.js"></script>
             </section>
     </main>
@@ -296,7 +259,7 @@
     <section class="projects" id="projects">
         <h2 class="title">PRO<span>JETOS</span></h2>
         <div class="container">
-            <div class="info-box"> <!-- box do peter-->
+            <div class="info-box"> 
                 <i class="bi bi-robot"></i>
                 <h3>PETer</h3>
                 <p>O PETer é um Chatbot desenvolvido pelo PET Computação, com
@@ -309,7 +272,7 @@
                     </button>
                 </a>
             </div>
-            <div class="info-box"> <!-- box do uecefood-->
+            <div class="info-box">
                 <i class="bi bi-phone"></i>
                 <h3>UECEFood</h3>
                 <p>O projeto mobile UECEFood, desenvolvido pelo PET, visa facilitar o gerenciamento de pequenos
@@ -323,7 +286,7 @@
                     Mais detalhes
                 </button>
             </div>
-            <div id="modal" class="modal"> <!-- janela modal uecefood-->
+            <div id="modal" class="modal"> 
                 <div class="modal-content">
                     <div class="modal-header">
                         <img src="images/UeceFood.png" alt="" />
@@ -366,11 +329,9 @@
     </section>
 
     <footer>
-        <!-- Rodapé da página -->
         <div class="footer-content">
             <div class="container">
                 <div class="map">
-                    <!-- Mapa integrado via Google Maps mostrando a localização do PET -->
                     <h1><b>Onde Estamos</b></h1>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d995.2761732516079!2d-38.55497297924949!3d-3.7873865561592983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74e917106dd97%3A0x94fcaeb2a359616d!2sPrograma%20de%20Educa%C3%A7%C3%A3o%20Tutorial%20-%20PET!5e0!3m2!1spt-BR!2sbr!4v1722607648704!5m2!1spt-BR!2sbr"
@@ -378,17 +339,17 @@
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="location">
-                    <!-- Endereço físico do PET Computação -->
                     <h1><b>PET Computação - UECE</b></h1>
                     <p>UECE - Universidade Estadual do Ceará - Campus do Itaperi<br> Av. Dr. Silas Munguba, 1700 -
                         Itaperi, Fortaleza - CE, 60714-903</p>
+                        <br>
+                        <h3><p>pet.computacao@uece.br</p></h3>
                 </div>
                 <div class="social-media">
-                    <!-- Links para redes sociais -->
                     <h1><b>Redes Sociais</b></h1>
                     <div class="container">
                         <div class="social">
-                            <a href="#">
+                            <a href="https://www.instagram.com/petcomputacao" target="_blank">
                                 <i class="bi bi-instagram"></i>
                                 <p>Instagram</p>
                             </a>
@@ -400,13 +361,13 @@
                             </a>
                         </div>
                         <div class="social">
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/petcomputa%C3%A7%C3%A3o" target="_blank">
                                 <i class="bi bi-linkedin"></i>
                                 <p>Linkedin</p>
                             </a>
                         </div>
                         <div class="social">
-                            <a href="#">
+                            <a href="https://www.youtube.com/@petcomputacaouece6770" target="_blank">
                                 <i class="bi bi-youtube"></i>
                                 <p>YouTube</p>
                             </a>
@@ -414,17 +375,15 @@
                     </div>
                 </div>
                 <div class="uece-links">
-                    <!-- Links úteis relacionados à UECE -->
                     <h1><b>Links Úteis</b></h1>
-                    <a href="https://www.uece.br/cct/">Centro de Ciências e Tecnologia</a>
-                    <a href="https://www.uece.br/cct/ciencias-da-computacao/">Departamento de Computação</a>
-                    <a href="https://www.uece.br/"><img src="./images/Logo_Uece_Nova_Horizontal_PB.png"
+                    <a href="https://www.uece.br/cct/" target="_blank">Centro de Ciências e Tecnologia </a>
+                    <a href="https://www.uece.br/cct/ciencias-da-computacao/" target="_blank">Departamento de Computação</a>
+                    <a href="https://www.uece.br/" target="_blank"><img src="./images/Logo_Uece_Nova_Horizontal_PB.png"
                             alt="Logo Uece"></a>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <!-- Informações de direitos autorais -->
             <p>© 2024 PET Computação UECE, Todos os direitos reservados.</p>
         </div>
     </footer>
