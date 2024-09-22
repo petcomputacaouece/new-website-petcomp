@@ -97,3 +97,11 @@
     color: #00A8ED;
 }
 
+@media (max-width: 1366px) {
+    body {
+        zoom: 80%;
+    }
+    .sobre {
+        padding-top: 80px;
+    }
+}

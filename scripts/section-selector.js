@@ -8,7 +8,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const targetSection = document.querySelector(targetId);
 
             if (targetSection) {
-                const targetPosition = targetSection.offsetTop - headerHeight;
+                let targetPosition = targetSection.offsetTop - headerHeight;
+
+                if (window.innerWidth <= 1366) {
+                    const zoomFactor = 1.25; 
+                    targetPosition = targetPosition / zoomFactor;
+                }
+
                 window.scrollTo({
                     top: targetPosition,
                     behavior: 'smooth'
