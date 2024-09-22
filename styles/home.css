@@ -1,11 +1,11 @@
     section.home {
         padding: 40px 4%;
-        height: 100vh;
+        height: 99vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 50px;
+        margin-top: 1vh;
     }
 
     section.home .container{
