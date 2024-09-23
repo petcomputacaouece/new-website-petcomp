@@ -2,12 +2,12 @@ header {
     width: 100%;
     background-color: #22231cb9;
     padding: 1rem;
-    box-shadow: 0px 1px 8px #000000;
+    box-shadow: 0 0.0625rem 0.5rem #00aaf7; /* 0px 1px 8px */
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
-    height:80px;
+    height: 5rem; /* 80px */
 }
 
 header > .container {
@@ -26,16 +26,16 @@ header .menu-desktop button {
     display: inline-block;
     transition: 0.5s;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem; /* 16px */
 }
 
 header .menu-desktop button:hover {
-    text-shadow: 0px 0px 8px #00aaf7;
+    text-shadow: 0 0 0.5rem #00aaf7; /* 0px 0px 8px */
     color: #00aaf7;
     transform: scale(1.05);
 }
 
-header .logo a{
+header .logo a {
     color: #fff;
     text-decoration-line: none;
     display: flex;
@@ -43,38 +43,38 @@ header .logo a{
     transition: 0.5s;
 }
 
-header .logo a h1{
+header .logo a h1 {
     font-family: "Oswald", sans-serif;
     font-weight: 200;
-    font-size: 16pt;
-    padding-left: 10px;
+    font-size: 1rem; /* 16pt */
+    padding-left: 0.625rem; /* 10px */
 }
 
-header .logo a img{
-    max-width: 50px;
+header .logo a img {
+    max-width: 3.125rem; /* 50px */
 }
 
-.logo b{
+.logo b {
     transition: 0.5s;
 }
 
-.logo :hover b{
+.logo :hover b {
     color: #00aaf7;
 }
 
-header .btn-contacts button{
+header .btn-contacts button {
     color: #22231c;
-    padding: 10px 20px;
-    font-size: 18px;
+    padding: 0.625rem 1.25rem; /* 10px 20px */
+    font-size: 1.125rem; /* 18px */
     font-weight: 600;
     background-color: #00aaf7;
     border: 0;
-    border-radius: 30px;
+    border-radius: 1.875rem; /* 30px */
     cursor: pointer;
     transition: 0.5s;
 }
 
-header .btn-contacts button:hover{
+header .btn-contacts button:hover {
     transform: scale(1.05);
-    box-shadow: 0px 0px 8px #00aaf7;
+    box-shadow: 0 0 0.5rem #00aaf7; /* 0px 0px 8px */
 }

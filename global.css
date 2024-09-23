@@ -1,51 +1,47 @@
-
 /* GENERAL STYLE */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
 
-h2.title{
+h2.title {
     color: #fff;
-    font-size: 38px;
+    font-size: 2.375rem;
     text-align: center;
 }
 
-h2.titleblack{
+h2.titleblack {
     color: #22231c;
-    font-size: 38px;
+    font-size: 2.375rem;
     text-align: center;
 }
 
-h2.titleblack span{
+h2.titleblack span {
     color: #00aaf7;
 }
 
-h2.title span{
+h2.title span {
     color: #00aaf7;
 }
 
-b{
+b {
     font-weight: 600;
-    font-size: 18pt;
+    font-size: 1.125rem;
 }
 
-body{
+body {
     background-image: url("./images/Background.jpg");
     height: 100vh;
 }
 
-.container{
-    max-width: 1280px;
+.container {
+    max-width: 80rem;
     margin: 0 auto;
 }
 
 /* HEADER STYLE */
 
-
-
 /* INICIO STYLE */
-
