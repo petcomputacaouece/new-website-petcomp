@@ -3,18 +3,18 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 40px;
+    padding: 2.5%;
 }
 
 .events .title {
-    margin-bottom: 20px;
+    margin-bottom: 1.25%;
     color: #22231c;
 }
 
 .events .container {
     position: relative;
     width: 100%;
-    max-width: 1000px;
+    max-width: 62.5em;
     margin: 0 auto;
 }
 
@@ -28,12 +28,10 @@
 .slide {
     display: flex;
     align-items: center;
-    /* Ajusta o alinhamento vertical */
     justify-content: flex-start;
-    /* Alinha o conteúdo à esquerda */
     width: 100%;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 1.25%;
     text-align: left;
 }
 
@@ -47,7 +45,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
+    border-radius: 1.25em;
 }
 
 .image-box img {
@@ -58,8 +56,8 @@
 
 .description {
     flex: 1 1 55%;
-    margin-left: 20px;
-    padding: 20px;
+    margin-left: 1.25%;
+    padding: 1.25%;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -70,27 +68,25 @@
 .description h2 {
     margin: 0;
     padding: 0;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: bold;
     color: #22231c;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375em;
 }
 
 .description p {
     margin: 0;
-    font-size: 16px;
+    font-size: 1em;
     color: #555;
     line-height: 1.5;
     white-space: normal;
     text-overflow: clip;
     overflow: visible;
-    /* Garante que o texto não seja cortado */
 }
 
 .dot-container {
     position: absolute;
-    bottom: 10px;
-    /* Ajuste conforme necessário */
+    bottom: 0.625em;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -98,9 +94,9 @@
 }
 
 .dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 3px;
+    height: 0.9375em;
+    width: 0.9375em;
+    margin: 0 0.1875em;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;

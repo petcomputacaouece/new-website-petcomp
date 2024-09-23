@@ -2,34 +2,33 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 40px;
+    padding: 2.5%;
 }
 
 .activities .title {
-    margin-bottom: 40px;
+    margin-bottom: 2.5%;
 }
 
 .activities .container {
     display: flex;
     margin: 0;
-    gap: 20px;
-
+    gap: 1.25%;
 }
 
 .activities .info-box {
-    padding: 20px;
+    padding: 1.25%;
     background-color: #d2d2d2;
     color: #000000;
-    height: 150px;
-    width: 200px;
+    height: 10em;
+    width: 13.33em;
 }
 
 .activities .info-box h3 {
-    font-size: 16PX;
+    font-size: 1em;
 }
 
 .activities .info-box i {
-    font-size: 50PX;
+    font-size: 3.125em;
 }
 
 .activities .info-box:hover {
@@ -37,19 +36,18 @@
 }
 
 @media (max-width: 1500px) {
-    .activities .container{
+    .activities .container {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
 }
 
 @media (max-width: 1080px) {
-
     .activities .info-box {
-        max-height: 150px;
-        max-width: 150px;
+        max-height: 10em;
+        max-width: 10em;
     }
-    .activities .container{
+    .activities .container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }

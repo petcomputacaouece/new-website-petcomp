@@ -1,12 +1,12 @@
-.footer-content{
+.footer-content {
     padding: 0 10%;
-    height: 225px;
+    height: 14.0625rem; /* 225px to rem (225/16) */
     display: flex;
     align-items: center;
     background-color: #000000e0;
 }
 
-.footer-content .container{
+.footer-content .container {
     color: #fff;
     width: 100%;
     display: flex;
@@ -17,20 +17,20 @@
     flex-direction: column;
 }
 
-.footer-content h1{
-    margin-bottom: 10px;
+.footer-content h1 {
+    margin-bottom: 0.625rem; /* 10px to rem (10/16) */
     text-align: center;
-    font-size: 16pt;
+    font-size: 1rem; /* 16pt to rem (16/16) */
 }
 
-.map{
+.map {
     display: flex;
     flex-direction: column;
     position: relative;
     width: 25%;
 }
 
-.location{
+.location {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,44 +38,44 @@
     text-align: center;
 }
 
-.uece-links a img{
-    max-width: 225px;
+.uece-links a img {
+    max-width: 14.0625rem; /* 225px to rem (225/16) */
 }
 
-.uece-links a{
-    margin-bottom: 10px;
+.uece-links a {
+    margin-bottom: 0.625rem; /* 10px to rem (10/16) */
 }
 
-.social a i{
-    font-size: 16pt;
-    margin-right: 5px;
+.social a i {
+    font-size: 1rem; /* 16pt to rem (16/16) */
+    margin-right: 0.3125rem; /* 5px to rem (5/16) */
 }
 
-.footer-content a{
+.footer-content a {
     display: flex;
     align-items: center;
     font-family: "Montserrat", sans-serif;
     color: #fff;
-    font-size: 12pt;
+    font-size: 0.75rem; /* 12pt to rem (12/16) */
     text-decoration: none;
     position: relative;
 }
 
-.footer-content .social a::before{
+.footer-content .social a::before {
     content: '';
     position: absolute;
-    width: 13%;
-    height: 4px;
-    border-radius: 4px;
-    background-color:  #00A8ED;
+    width: 14%;
+    height: 0.25rem; /* 4px to rem (4/16) */
+    border-radius: 0.25rem; /* 4px to rem (4/16) */
+    background-color: #00A8ED;
     bottom: 0;
     left: 0;
     transform-origin: right;
     transform: scaleX(0);
-    transition: transform .3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
-.footer-content .social a:hover::before{
+.footer-content .social a:hover::before {
     transform: scaleX(1);
     transform-origin: left;
 }
@@ -84,58 +84,57 @@
     color: #d2d2d2; /* Mover a cor para o elemento pai */
 }
 
-.social:not(:last-child){
-    margin-bottom: 10px;
+.social:not(:last-child) {
+    margin-bottom: 0.625rem; /* 10px to rem (10/16) */
 }
 
-.footer-bottom{
+.footer-bottom {
     background-color: black;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 30px;
-    font-size: 10pt;
+    height: 1.875rem; /* 30px to rem (30/16) */
+    font-size: 0.625rem; /* 10pt to rem (10/16) */
 }
 
 .uece-links a img {
-    max-width: 225px;
+    max-width: 14.0625rem; /* 225px to rem (225/16) */
     display: block; /* Adicionado para garantir que a imagem seja tratada como um bloco */
     margin: 0 auto; /* Adicionado para centralizar a imagem dentro do link */
 }
 
-@media (max-width: 1080px) {
-    .footer-content .container{
+@media (max-width: 67.5rem) { /* 1080px to rem (1080/16) */
+    .footer-content .container {
         flex-direction: column;
         justify-content: center;
-        gap: 20px;
+        gap: 1.25rem; /* 20px to rem (20/16) */
     }
-    .footer-content{
+    .footer-content {
         padding: 10%;
         height: auto;
     }
     .footer-content .social-media .container {
         flex-direction: row;
     }
-    .footer-content .social p{
+    .footer-content .social p {
         display: none;
     }
-    .location{
+    .location {
         text-align: center;
         width: auto;
-        margin-bottom: 10px;
+        margin-bottom: 0.625rem; /* 10px to rem (10/16) */
     }
-    .map{
+    .map {
         width: auto;
         display: flex;
         justify-content: center;
-        margin-bottom: 10px;
+        margin-bottom: 0.625rem; /* 10px to rem (10/16) */
     }
-    .uece-links{
+    .uece-links {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        
     }
-  }
+}
