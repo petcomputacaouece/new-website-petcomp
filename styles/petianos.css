@@ -2,7 +2,7 @@
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     overflow: hidden;
     height: 18.75em; /* 300px assuming 1em = 16px */
     width: 80%;
@@ -16,6 +16,6 @@
 
 #img_petianos {
     object-fit: cover;
-    height: 18.75em; /* 300px assuming 1em = 16px */
+    height: 17.25em; /* 300px assuming 1em = 16px */
     width: 18.875em; /* 302px assuming 1em = 16px */
 }

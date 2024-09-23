@@ -1,16 +1,20 @@
-const imgs = document.getElementById("img_petianos");
-const img = document.querySelectorAll("#img_petianos img");
+document.addEventListener('DOMContentLoaded', function() {
+    const container = document.querySelector('.conteiner_petianos');
+    const images = document.querySelectorAll('.conteiner_petianos img');
+    const imageWidth = images[0].offsetWidth;
+    let currentIndex = 0;
 
-let index = 0;
+    function moveCarousel() {
+        container.style.transition = 'transform 0.5s ease-in-out';
+        container.style.transform = `translateX(-${imageWidth}px)`;
 
-function carrosel() {
-    index++;
-
-    if (index > img.length - 1) {
-        index = 0;
+        setTimeout(() => {
+            container.style.transition = 'none';
+            container.appendChild(images[currentIndex]);
+            container.style.transform = 'translateX(0)';
+            currentIndex = (currentIndex + 1) % images.length;
+        }, 1000);
     }
 
-    imgs.style.transform = `translateX(${-index * 302}px)`; 
-}
-
-setInterval(carrosel, 1800);
+    setInterval(moveCarousel, 1500); 
+});
