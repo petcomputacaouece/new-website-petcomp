@@ -22,3 +22,47 @@
     margin: 0.9375rem 0; /* 15px */
     font-size: 1.75rem; /* 28px */
 }
+
+@media (max-width: 1366px) {
+    .info-box i {
+        font-size: 4.375rem; /* 70px */
+    }
+
+    .info-box h3 {
+        font-size: 1.5rem; /* 24px */
+    }
+}
+
+/* For screens up to 1080px */
+@media (max-width: 1080px) {
+    .info-box i {
+        font-size: 3.75rem; /* 60px */
+    }
+
+    .info-box h3 {
+        font-size: 1.25rem; /* 20px */
+    }
+}
+
+/* For screens up to 768px */
+@media (max-width: 768px) {
+    .info-box i {
+        font-size: 3.125rem; /* 50px */
+    }
+
+    .info-box h3 {
+        font-size: 1rem; /* 16px */
+    }
+}
+
+/* For screens up to 480px */
+@media (max-width: 480px) {
+
+    .info-box i {
+        font-size: 2.5rem; /* 40px */
+    }
+
+    .info-box h3 {
+        font-size: 0.875rem; /* 14px */
+    }
+}

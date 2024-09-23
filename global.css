@@ -29,7 +29,7 @@ h2.title span {
 
 b {
     font-weight: 600;
-    font-size: 1.125rem;
+    font-size: 1.7rem;
 }
 
 body {
@@ -43,10 +43,96 @@ body {
 }
 
 @media (max-width: 1366px) {
-    body {
-        zoom: 80%;
+    .container {
+        max-width: 70rem;
+        padding: 0 1rem;
+    }
+
+    body{
+        zoom: 0.8;
+    }
+
+    h2.title, h2.titleblack {
+        font-size: 2rem;
+    }
+
+    .menu-desktop button {
+        font-size: 0.875rem;
     }
 }
+
+/* For screens up to 1024px */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 60rem;
+        padding: 0 1rem;
+    }
+
+    h2.title, h2.titleblack {
+        font-size: 1.75rem;
+    }
+
+    .menu-desktop button {
+        font-size: 0.875rem;
+    }
+}
+
+/* For screens up to 768px */
+@media (max-width: 768px) {
+    .container {
+        max-width: 40rem;
+        padding: 0 1rem;
+    }
+
+    h2.title, h2.titleblack {
+        font-size: 1.5rem;
+    }
+
+    .menu-desktop {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: block;
+    }
+
+    .btn-contacts button {
+        font-size: 0.875rem;
+    }
+}
+
+/* For screens up to 480px */
+@media (max-width: 480px) {
+    .container {
+        max-width: 20rem;
+        padding: 0 0.5rem;
+    }
+
+    h2.title, h2.titleblack {
+        font-size: 1.25rem;
+    }
+
+    .home-text h1 {
+        font-size: 1rem;
+    }
+
+    .home-text p {
+        font-size: 0.875rem;
+    }
+
+    .info-box h3 {
+        font-size: 1rem;
+    }
+
+    .info-box p {
+        font-size: 0.75rem;
+    }
+
+    .btn-contacts button {
+        font-size: 0.75rem;
+    }
+}
+
 /* HEADER STYLE */
 
 /* INICIO STYLE */

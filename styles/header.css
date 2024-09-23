@@ -46,7 +46,7 @@ header .logo a {
 header .logo a h1 {
     font-family: "Oswald", sans-serif;
     font-weight: 200;
-    font-size: 1rem; /* 16pt */
+    font-size: 1.3rem; /* 16pt */
     padding-left: 0.625rem; /* 10px */
 }
 

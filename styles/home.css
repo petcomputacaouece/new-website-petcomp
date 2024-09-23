@@ -45,6 +45,31 @@ div.pillars .container {
     gap: 3.75rem; /* 60px */
 }
 
+@media (max-width: 1366px) {
+    section.home {
+        padding: 2.5rem 4%; /* 40px */
+        height: 110vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15vh;
+    }
+
+    section.home .container {
+        gap: 3.125rem; /* 50px */
+    }
+
+    section.home .home-text h1 {
+        font-size: 2rem; /* 32px */
+    }
+
+    section.home .home-text p {
+        font-size: 1rem; /* 16px */
+    }
+}
+
+/* For screens up to 1080px */
 @media (max-width: 1080px) {
     section.home {
         margin-top: 5.9375rem; /* 95px */
@@ -69,23 +94,74 @@ div.pillars .container {
         max-width: 20rem;
     }
 
+    section.home .home-text h1 {
+        font-size: 1.75rem; /* 28px */
+    }
+
+    section.home .home-text p {
+        font-size: 1rem; /* 16px */
+    }
+
     div.pillars {
         padding: 0;
     }
+
     div.pillars .container {
         flex-direction: column;
         gap: 1.25rem; /* 20px */
     }
 }
 
-@media (max-width: 1366px) {
+/* For screens up to 768px */
+@media (max-width: 768px) {
     section.home {
-        padding: 2.5rem 4%; /* 40px */
-        height: 110vh;
-        display: flex;
+        padding: 2rem 3%; /* 32px */
+        height: auto;
+        margin-top: 5rem; /* 80px */
+    }
+
+    section.home .container {
+        gap: 1rem; /* 16px */
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        margin-top: 15vh;
+    }
+
+    section.home .home-text h1 {
+        font-size: 1.5rem; /* 24px */
+    }
+
+    section.home .home-text p {
+        font-size: 0.875rem; /* 14px */
+    }
+
+    div.pillars .container {
+        gap: 1rem; /* 16px */
+    }
+}
+
+/* For screens up to 480px */
+@media (max-width: 480px) {
+    section.home {
+        padding: 1.5rem 2%; /* 24px */
+        height: auto;
+        margin-top: 4rem; /* 64px */
+    }
+
+    section.home .container {
+        gap: 0.75rem; /* 12px */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.home .home-text h1 {
+        font-size: 1.25rem; /* 20px */
+    }
+
+    section.home .home-text p {
+        font-size: 0.75rem; /* 12px */
+    }
+
+    div.pillars .container {
+        gap: 0.75rem; /* 12px */
     }
 }

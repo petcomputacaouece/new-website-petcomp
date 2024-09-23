@@ -64,7 +64,7 @@
 .footer-content .social a::before{
     content: '';
     position: absolute;
-    width: 17%;
+    width: 1.35rem;
     height: 0.25rem; /* 4px to rem (4/16) */
     border-radius: 0.25rem; /* 4px to rem (4/16) */
     background-color:  #00A8ED;
