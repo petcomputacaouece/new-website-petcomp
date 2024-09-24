@@ -48,16 +48,17 @@ div.pillars .container {
 @media (max-width: 1366px) {
     section.home {
         padding: 2.5rem 4%; /* 40px */
-        height: 110vh;
+        height: 80vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 15vh;
+        margin-top: 20vh;
     }
 
     section.home .container {
         gap: 3.125rem; /* 50px */
+        height: 85%;
     }
 
     section.home .home-text h1 {
@@ -66,6 +67,18 @@ div.pillars .container {
 
     section.home .home-text p {
         font-size: 1rem; /* 16px */
+    }
+
+    section.home .home-image img {
+        max-height: 12rem; /* Adjust the size as needed */
+    }
+
+    div.pillars .info-box p {
+        font-size: 0.85rem; /* Adjust paragraph size as needed */
+    }
+
+    div.pillars .info-box {
+        margin-top: 2vh; /* Adjust paragraph size as needed */
     }
 }
 

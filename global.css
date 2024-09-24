@@ -48,10 +48,6 @@ body {
         padding: 0 1rem;
     }
 
-    body{
-        zoom: 0.8;
-    }
-
     h2.title, h2.titleblack {
         font-size: 2rem;
     }
