@@ -107,3 +107,38 @@
 .dot.active {
     background-color: #000000;
 }
+
+@media (max-width: 1366px) {
+
+
+    .events .container {
+        max-width: 45em;
+    }
+
+    .image-box img {
+        height: 40vh;
+       
+    }
+
+    .description {
+        flex: 1 1 50%;
+        margin-left: 1%;
+    }
+
+    .description h2 {
+        font-size: 1.3em;
+        margin-bottom: 0.8em;
+    }
+
+    .description p {
+        font-size: 0.9em;
+    }
+
+    .dot {
+        height: 0.8em;
+        width: 0.8em;
+        margin: 0 0.15em;
+    }
+
+
+}
