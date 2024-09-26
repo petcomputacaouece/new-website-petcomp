@@ -27,6 +27,9 @@
 .projects .info-box h3 {
     font-size: 1.25em;
 }
+.projects .info-box span {
+    color: #00aaf7;
+}
 
 .projects .info-box p {
     max-width: 100%;
@@ -220,27 +223,27 @@ a {
     }
     .projects .container {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 600px) {
-    .projects .container {
-        width: 100%;
-        padding: 0.625em;
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .projects .arrow {
-        margin-top: 0.625em;
-    }
-
+@media (max-width: 768px) {
     .projects .info-box {
-        width: 100%;
+        height: auto;
+        width: 15.625em;
     }
-
-    .horizontal-slider img {
-        height: 18.75em;
+    .projects .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 480px) {
+    .projects .info-box {
+        height: auto;
+        width: 13.625em;
+    }
+    .projects .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }

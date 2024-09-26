@@ -1,15 +1,7 @@
-* {
-    box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
-}
 
 .sobre {
     background-color: #ffffffe8;
-}
-
-.pet-computacao-sobre-section {
-    padding: 1.75rem 3.5rem; /* 28px 56px */
-    height: 70vh;
+    padding: 2.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,80 +9,84 @@
     text-align: center;
 }
 
-.pet-computacao-sobre-title {
-    font-size: 2.8125rem; /* 45px */
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.pet-computacao-sobre-title-s {
-    color: #22231c;
-}
-
-.pet-computacao-sobre-title-obre {
-    color: #00A8ED;
+.titleblack {
+    margin-bottom: 1.25em;
 }
 
 .pet-computacao-content {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     margin-top: 1.25rem; /* 20px */
     gap: 2.5rem; /* 40px */
-    width: 100%;
-    max-width: 75rem; /* 1200px */
+    max-width: 100rem; /* 1200px */
 }
 
-.pet-computacao-photo,
-.pet-computacao-text {
-    flex: 1;
-    padding: 0.625rem; /* 10px */
+.pet-computacao-content p {
+    padding: 5px 1%; 
+    font-size: 22px; 
     color: #000000;
+    text-align: justify;
+
 }
 
-.pet-computacao-photo img {
-    max-width: 100%;
+.pet-computacao-content img {
     height: auto;
-}
-
-.pet-computacao-img-petianos {
-    width: 28.125rem; /* 450px */
     border-radius: 3.125rem; /* 50px */
     object-fit: cover;
 }
 
 .pet-computacao-petianos-section {
-    padding-top: 2.5rem; /* 40px */
-    padding-bottom: 2.5rem; /* 40px */
-    padding-left: 5rem; /* 80px */
-    padding-right: 5rem; /* 80px */
+    padding: 2.5rem 5rem; /* 40px */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.pet-computacao-petianos-title {
-    font-size: 2.8125rem; /* 45px */
-    display: flex;
-}
+@media (max-width: 1080px) {
+    .sobre .pet-computacao-content {
+        display: flex;
+        grid-template-columns: 1fr;
+    }
+    .pet-computacao-content img {
+        max-width: 100%;
+        height: auto;
 
-.pet-computacao-petianos-title-pet {
-    color: #000000;
-}
-
-.pet-computacao-petianos-title-ianos {
-    color: #00A8ED;
-}
-
-@media (max-width: 1366px) {
-    .sobre {
-        padding-top: 5rem; /* 80px */
+        width: 28.125rem; /* 450px */
+        border-radius: 3.125rem; /* 50px */
+        object-fit: cover;
     }
 }
 
-@media (max-width: 16in) {
-    .sobre {
-        padding-top: 5rem; /* 80px */
+/* For screens up to 768px */
+@media (max-width: 768px) {
+    .sobre .pet-computacao-content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .pet-computacao-content img {
+        max-width: 100%;
+        height: auto;
+
+        width: 28.125rem; /* 450px */
+        border-radius: 3.125rem; /* 50px */
+        object-fit: cover;
+    }
+}
+
+/* For screens up to 480px */
+@media (max-width: 480px) {
+    .sobre .pet-computacao-content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .pet-computacao-content img {
+        max-width: 100%;
+        height: auto;
+
+        width: 28.125rem; /* 450px */
+        border-radius: 3.125rem; /* 50px */
+        object-fit: cover;
+    
     }
 }
